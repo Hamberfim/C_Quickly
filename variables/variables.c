@@ -2,7 +2,7 @@
 
 int main()
 {
-    // declare variables
+    // declare local scope variables
     char letterA = 'A';
     int numInt = 100;
     float price = 2.99;
