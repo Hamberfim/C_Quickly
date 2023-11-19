@@ -1,1 +1,1 @@
-# C_Quickly
+# C Programming Quickly
