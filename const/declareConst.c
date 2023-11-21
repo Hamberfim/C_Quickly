@@ -15,8 +15,8 @@ int main()
     area = PI * (radius * radius);
 
     // output
-    printf("\n\tThe circumference is %.2f mm", circ);
-    printf("\n\tand the area is %.2f sq.mm\n", area);
+    printf("===============\n\n  The circumference is %.2fmm", circ);
+    printf("\n  and the area is %.2fsq.mm\n\n===============\n", area);
 
     return 0;
 }
