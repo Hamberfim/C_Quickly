@@ -5,3 +5,6 @@ declareConst: declareConst.c
 
 enumerateConst: enumerateConst.c
 	gcc -o enumerateConst.exe enumerateConst.c
+
+typeDef: typeDef.c
+	gcc -o typeDef.exe typeDef.c
