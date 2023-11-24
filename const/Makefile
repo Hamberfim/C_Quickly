@@ -11,3 +11,6 @@ typeDef: typeDef.c
 
 defConst: defConst.c
 	gcc -o defConst.exe defConst.c
+
+debugDef: debugDef.c
+	gcc -o debugDef.exe debugDef.c
