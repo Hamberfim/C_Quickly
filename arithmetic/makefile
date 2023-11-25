@@ -5,3 +5,5 @@ arith: arith.c
 conditionals: conditionals.c
 	gcc -o conditionals.exe conditionals.c
 	
+measureSize: measureSize.c
+	gcc -o measureSize.exe measureSize.c
