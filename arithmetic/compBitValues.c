@@ -38,6 +38,19 @@ int main()
     result = biNum >> 2;
     printf("Shift right 2 %lld in binary = %d in decimal\n", result, convert(result));
 
+    // test values
+    printf("===TEST===\n");
+    long long allBits = 0b00100000; // 32
+    printf("%lld in binary = %d in decimal\n", allBits, convert(allBits));
+
+    long long noBits = 0b00000000; // 0
+    printf("%lld in binary = %d in decimal\n", noBits, convert(noBits));
+
+    long long allBitsShift = (1 >> allBits);
+    printf("%lld in binary = %d in decimal\n", allBitsShift, convert(allBitsShift));
+    long long noBitsShift = (1 << noBits);
+    printf("%lld in binary = %d in decimal\n", noBitsShift, convert(noBitsShift));
+
     return 0;
 }
 
