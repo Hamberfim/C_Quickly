@@ -46,7 +46,6 @@ int main()
         double dblArr[3];
 
     } total;
-
     printf("Of the 42 bytes above the total allocation with padding is %ld bytes\n", sizeof(total));
 
     // end
