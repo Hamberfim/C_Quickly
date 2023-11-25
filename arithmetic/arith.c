@@ -17,10 +17,23 @@ int main()
     printf("Division: %d\n", a / b);
     printf("Modules: %d\n", a % b);
 
+    printf("Post Decrement: %d\n", a--);
+    printf("Now: %d\n", a);
+    printf("Pre Decrement: %d\n", --a);
+    printf("Now: %d\n", a);
+
     printf("Post Increment: %d\n", a++);
     printf("Now: %d\n", a);
     printf("Pre Increment: %d\n", ++a);
     printf("Now: %d\n", a);
+
+    int zero = 0;
+    int one = 1;
+    printf("Equality (0==0) %d\n", zero == zero);
+    printf("Equality (0==1) %d\n", zero == one);
+    printf("Inequality (0!=1) %d\n", zero != one);
+    printf("Greater Or Equal (0>=0) %d\n", zero >= zero);
+    printf("Less Or Equal (0<=1) %d\n", zero <= one);
 
     // end
     return 0;
