@@ -10,4 +10,7 @@ measureSize: measureSize.c
 
 # -lm to link the math.h lib definitions
 compBitValues: compBitValues.c
-	gcc -o compBitValues.exe compBitValues.c -lm 
+	gcc -o compBitValues.exe compBitValues.c -lm
+
+flagBits: flagBits.c
+	gcc -o flagBits.exe flagBits.c
