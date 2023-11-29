@@ -14,3 +14,6 @@ compBitValues: compBitValues.c
 
 flagBits: flagBits.c
 	gcc -o flagBits.exe flagBits.c
+
+shiftBits: shiftBits.c
+	gcc -o shiftBits.exe shiftBits.c
