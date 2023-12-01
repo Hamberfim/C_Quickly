@@ -17,3 +17,6 @@ flagBits: flagBits.c
 
 shiftBits: shiftBits.c
 	gcc -o shiftBits.exe shiftBits.c
+
+precedence: precedence.c
+	gcc -o precedence.exe precedence.c
