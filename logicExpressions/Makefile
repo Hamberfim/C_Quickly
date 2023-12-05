@@ -8,3 +8,6 @@ branching: branching.c
 
 loopIteration: loopIteration.c
 	gcc -o loopIteration.exe loopIteration.c
+
+whileLoop: whileLoop.c
+	gcc -o whileLoop.exe whileLoop.c
