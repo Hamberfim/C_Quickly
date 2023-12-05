@@ -7,7 +7,7 @@ int main()
         printf("Yes, 5 is greater than 0.\n");
         if (7 > 2)
         {
-            printf("Yes, 7n is greater than 2.\n");
+            printf("Yes, 7 is greater than 2.\n");
         }
     }
 
@@ -21,7 +21,7 @@ int main()
     }
     else
     {
-        printf("Neither expression is true\n");
+        printf("Neither expression is true.\n");
     }
 
     return 0;
