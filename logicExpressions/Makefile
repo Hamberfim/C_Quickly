@@ -11,3 +11,6 @@ loopIteration: loopIteration.c
 
 whileLoop: whileLoop.c
 	gcc -o whileLoop.exe whileLoop.c
+
+breakLoop: breakLoop.c
+	gcc -o breakLoop.exe breakLoop.c
