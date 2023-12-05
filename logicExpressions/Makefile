@@ -5,3 +5,6 @@ ifExperssions: ifExperssions.c
 
 branching: branching.c
 	gcc -o branching.exe branching.c
+
+loopIteration: loopIteration.c
+	gcc -o loopIteration.exe loopIteration.c
