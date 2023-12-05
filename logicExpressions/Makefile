@@ -14,3 +14,6 @@ whileLoop: whileLoop.c
 
 breakLoop: breakLoop.c
 	gcc -o breakLoop.exe breakLoop.c
+
+gotoLable: gotoLable.c
+	gcc -o gotoLable.exe gotoLable.c
