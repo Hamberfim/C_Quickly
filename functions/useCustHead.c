@@ -20,7 +20,7 @@ void getNum()
     // user input
     printf("Enter an integer to be squared: \n");
     scanf("%d", &num);
-    printf("%d squared is %d\n", num, square(num));
+    printf("%d squared is %d\n", num, square(num)); // call function from custom header include
 
     printf("Square another number? Y or N: \n");
     scanf("%1s", &again);
