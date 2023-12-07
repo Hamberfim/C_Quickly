@@ -8,3 +8,6 @@ withArgs: withArgs.c
 
 recursiveFuncs: recursiveFuncs.c
 	gcc -o recursiveFuncs.exe recursiveFuncs.c
+
+useCustHead: useCustHead.c
+	gcc -o useCustHead.exe useCustHead.c
