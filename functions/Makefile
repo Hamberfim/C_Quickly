@@ -11,3 +11,6 @@ recursiveFuncs: recursiveFuncs.c
 
 useCustHead: useCustHead.c
 	gcc -o useCustHead.exe useCustHead.c
+
+menu: restrictStatic.c
+	gcc -o menu.exe restrictStatic.c restrictAcces.c
