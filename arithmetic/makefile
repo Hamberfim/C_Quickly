@@ -1,4 +1,4 @@
-
+# make file for arithmetic dir
 arith: arith.c
 	gcc -o arith.exe arith.c
 

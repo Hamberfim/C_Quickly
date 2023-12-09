@@ -1,4 +1,4 @@
-#chapt 3 makefile
+#chapt 3 makefile for const dir
 
 declareConst: declareConst.c
 	gcc -o declareConst.exe declareConst.c
