@@ -8,3 +8,6 @@ ptrArith: ptrArith.c
 
 ptrToFunc: ptrToFunc.c
 	gcc -o ptrToFunc.exe ptrToFunc.c
+
+arrPtr: arrPtr.c
+	gcc -o arrPtr.exe arrPtr.c
