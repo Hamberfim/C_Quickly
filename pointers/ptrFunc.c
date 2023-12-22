@@ -9,7 +9,7 @@ int main()
     int num;
     int (*fptr)(int) = bounce;
 
-    num = (*fptr)(10);
+    num = (*fptr)(10); // pointer function must be within parentheses to avoid compiling errors
     printf("Return value: %d\n", num);
 
     num = caller(fptr, 5);
