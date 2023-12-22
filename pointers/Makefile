@@ -11,3 +11,6 @@ ptrToFunc: ptrToFunc.c
 
 arrPtr: arrPtr.c
 	gcc -o arrPtr.exe arrPtr.c
+
+ptrFunc: ptrFunc.c
+	gcc -o ptrFunc.exe ptrFunc.c
