@@ -5,3 +5,6 @@ readStr: readStr.c
 
 strCopy: strCopy.c
 	gcc -Wall -o strCopy.exe strCopy.c
+
+joinStr: joinStr.c
+	gcc -Wall -o joinStr.exe joinStr.c
