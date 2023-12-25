@@ -8,3 +8,6 @@ strCopy: strCopy.c
 
 joinStr: joinStr.c
 	gcc -Wall -o joinStr.exe joinStr.c
+
+findSubStr: findSubStr.c
+	gcc -Wall -o findSubStr.exe findSubStr.c
