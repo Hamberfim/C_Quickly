@@ -14,3 +14,6 @@ findSubStr: findSubStr.c
 
 validateString: validateString.c
 	gcc -Wall -o validateString.exe validateString.c
+
+convertStrings: convertStrings.c
+	gcc -Wall -o convertStrings.exe convertStrings.c -lm
