@@ -11,3 +11,6 @@ joinStr: joinStr.c
 
 findSubStr: findSubStr.c
 	gcc -Wall -o findSubStr.exe findSubStr.c
+
+validateString: validateString.c
+	gcc -Wall -o validateString.exe validateString.c
