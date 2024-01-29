@@ -11,3 +11,6 @@ grpStruct: grpStruct.c
 
 ptrStruct: ptrStruct.c
 	gcc -g3 -ggdb -Wall -o ptrStruct.exe ptrStruct.c
+
+ptrToStruct: ptrToStruct.c
+	gcc -g3 -ggdb -Wall -o ptrToStruct.exe ptrToStruct.c
