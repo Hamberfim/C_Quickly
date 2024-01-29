@@ -14,3 +14,6 @@ ptrStruct: ptrStruct.c
 
 ptrToStruct: ptrToStruct.c
 	gcc -g3 -ggdb -Wall -o ptrToStruct.exe ptrToStruct.c
+
+passStructToFunc: passStructToFunc.c
+	gcc -g3 -ggdb -Wall -o passStructToFunc.exe passStructToFunc.c
