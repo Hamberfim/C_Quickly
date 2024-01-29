@@ -8,3 +8,6 @@ typedStructs: typedStructs.c
 
 grpStruct: grpStruct.c
 	gcc -g3 -ggdb -Wall -o grpStruct.exe grpStruct.c
+
+ptrStruct: ptrStruct.c
+	gcc -g3 -ggdb -Wall -o ptrStruct.exe ptrStruct.c
