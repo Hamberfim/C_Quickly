@@ -5,3 +5,6 @@ groupingStructs: groupingStructs.c
 
 typedStructs: typedStructs.c
 	gcc -Wall -o typedStructs.exe typedStructs.c
+
+grpStruct: grpStruct.c
+	gcc -g3 -ggdb -Wall -o grpStruct.exe grpStruct.c

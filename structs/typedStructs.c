@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 // declare typed struct | Note the similarity to typescript
-typedef struct
-{
+typedef struct {
   int x;
   int y;
 } Point;
@@ -12,15 +11,13 @@ Point top = {15, 24};
 Point bottom;
 
 // second type struct with nested struct members
-typedef struct
-{
+typedef struct {
   Point a;
   Point b;
 } Box;
 
-// switched to google format style over Allman
-int main()
-{
+// switched to LLVM format style over Allman
+int main() {
   bottom.x = 5;
   bottom.y = 8;
   printf("Bottom x: %d, Bottom y: %d\n", bottom.x, bottom.y);
