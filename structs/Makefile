@@ -17,3 +17,6 @@ ptrToStruct: ptrToStruct.c
 
 passStructToFunc: passStructToFunc.c
 	gcc -g3 -ggdb -Wall -o passStructToFunc.exe passStructToFunc.c
+
+unionGrouping: unionGrouping.c
+	gcc -g3 -ggdb -Wall -o unionGrouping.exe unionGrouping.c
