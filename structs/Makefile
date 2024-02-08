@@ -20,3 +20,6 @@ passStructToFunc: passStructToFunc.c
 
 unionGrouping: unionGrouping.c
 	gcc -g3 -ggdb -Wall -o unionGrouping.exe unionGrouping.c
+
+allowcateMem: allowcateMem.c
+	gcc -g3 -ggdb -Wall -Wextra -o allowcateMem.exe allowcateMem.c
